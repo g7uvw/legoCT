@@ -15,7 +15,7 @@ with picamera.PiCamera() as camera:
 #    camera.exposure_mode = 'off'
 #    g = camera.awb_gains
 #    print g
-    #camera.awb_mode = 'off'
+#    camera.awb_mode = 'off'
     camera.awb_gains = 5.0
     time.sleep(2)
     camera.start_preview()
