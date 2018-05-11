@@ -68,6 +68,7 @@ def outputs():
 
 with picamera.PiCamera() as camera:
     light.on()
+    camera.vflip = 1
     camera.resolution = (640,480)
     #camera.resolution = (320, 240)
     camera.framerate = 25
